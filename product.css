@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+
+   }
+.styleheader {
+     flex: 1;
+     font-family: Alegreya SC;
+     text-align: center;   
+}
+
+nav {
+   margin-bottom: 20px;
+ }
+nav ul {
+ 
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  background-color:#151515;
+  height: 50px;
+  align-items: center;
+  
+}
+
+nav li {
+  margin: 5px;
+  border: 2px solid #EEBA4C;
+ 
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background: #EEBA4C; 
+  color: black;  
+}
+
+body {
+  background-color: #151515;
+}
+
+.main {
+  background-image: url('https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+#quote {
+  position: relative;
+  top: 20%;
+  margin: auto;
+  width: 800px;
+  font-size: 40px;
+  color: #fdcc0d;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Alegreya SC;
+  /* font-weight: bold; */
+  text-shadow: 2px 2px 4px black;
+}
+
+#mainp {
+  font-size: 25px; 
+  margin-top: 20px; 
+  color: white; 
+  font-weight: bold;
+  position: relative;
+  top: 25%;
+  text-align: center;
+}
+
+.main a {
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  display: block;
+  position: relative;
+  margin: auto;
+  top:35%;
+  margin-top: 20px;
+  width: 150px;
+  border: 2px solid #EEBA4C;
+  font-family: Alegreya SC;
+  letter-spacing: 2px;
+}
+
+.main a:hover {
+  color: black;
+  background-color: #EEBA4C;
+}
+
+ #nav2{
+   height: 100px;
+   margin-top: 10px;
+ }
+ 
+ .p2style {
+    background-image: url('https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+ }
+ .p2style p {
+   color: #EEBA4C;
+   letter-spacing: 0.6px;
+   font-size: 18px;
+   text-indent: 50px;
+   margin: 5px;
+   position: relative;
+   left: 35%;
+   top: 10%;
+   width: 450px;
+   text-align: justify;
+   word-wrap: break-word;
+  }
+
+.aimg {
+  margin: 40px 0;
+  height: 200px;
+  background-image: url('https://pomodoropizza.co.za/wp-content/uploads/pizza-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px; 
+}
+
+.aimg p{
+ 
+  color:#EEBA4C;
+  font-size: 16px;
+  /* font-weight: bold; */
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 18px;
+} 
+.stylecontact {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  
+}
+
+#form {
+  background-color:  #EEBA4C;
+  color: #151515; 
+  flex: 1;
+  margin-bottom: 20px;
+ 
+}
+
+
+input, label, textarea, button {
+    display: block;
+  }
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px dotted black;
+  width: 250px;
+}
+label {
+  text-align: center;
+  margin-top: 5px;
+}
+.alignform {
+  display: flex;
+  justify-content: space-around;
+}
+
+textarea {
+  background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
+  margin: auto;
+  height: 200px;
+  width: 700px;
+  line-height: 25px;
+  padding: 2px 10px;
+  border: solid 1px #ddd;
+  font-family: Alegreya SC;
+  font-weight: bold;
+  padding: 10px;
+}
+
+button {
+font-family: Alegreya SC;
+border: 2px solid black;
+ margin-left: 85px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ width: 100px;
+ padding: 5px;
+ font-weight: bold;
+ font-size: 15px;;
+}
+
+
+
+.special {
+  position: relative;
+  top: -35px;
+  font-family: Alegreya SC;
+  color: black;
+  font-weight: 900;
+  font-size: 45px;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px 8px white;
+}
+
+label {
+  font-family: Alegreya SC;
+  font-size: 18px;
+}
+
+figure {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+  }
+figcaption {
+  font-family: Alegreya SC;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  width: 250px;
+  background: rgba(253, 227, 167, 0.8);  
+}
+
+.menuimg {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.pmeniu {
+    font-size: 16px;
+    display: none;
+    width: 250px;
+    /* text-align: justify; */
+  }
+
+figcaption:hover > .pmeniu{
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background: rgba(253, 227, 167, 0.8);
+  color: black;
+  width: 250px;
+  height: 250px;
+}
+
+.styleh1 {
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+}
+.stylemain {
+  width: 900px;
+  margin: auto; 
+}
+
+@media all and (max-width: 375px) {
+  header {
+  flex-direction: column;
+}
+  .styleheader img {
+    display: none;
+  }
+  .styleheader {
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+  }
+  #quote {
+    display: none;
+  }
+  #mainp {
+    top: 15%;
+    color: white;
+    text-shadow: 2px 2px 4px #fdcc0d;
+  }
+  .main a {
+    background: rgba(0,0,0, .7);
+    top: 20%;
+  }
+  nav ul {
+    margin: 90px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav ul li  {
+    width: 100px;
+    text-align: center;
+  }
+}
+
+
